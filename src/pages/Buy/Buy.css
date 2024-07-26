@@ -1,0 +1,15 @@
+.BuyGMXGLP {
+  background: #252734 !important;
+  justify-content: space-between;
+  padding-top: 0rem !important;
+}
+
+.BuyGMXGLP-container {
+  padding: 0 0 3.1rem 0;
+  width: 100%;
+  background: #1E1E2D;
+}
+
+.BuyGMXGLP-container .section-title-content {
+  justify-content: flex-start;
+}

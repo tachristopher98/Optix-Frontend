@@ -1,0 +1,107 @@
+.options-tabs {
+    display: inline-flex;
+    background: #1E1E2D;
+}
+
+.dropdown-options-popover {
+    /* display: none; */
+    background-color: #1E1E2D;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: solid 1px #434359;
+    position: relative;
+}
+
+.options-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+    cursor: pointer;
+}
+
+.options-item {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    cursor: pointer;
+}
+
+.options-item.active {
+    display: none;
+}
+
+.options-container {
+    padding-top: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    background: #1E1E2D;
+    padding: 1.2rem;
+    left: -0.1rem;
+    width: 8.4rem;
+    border-bottom: solid 1px #434359;
+    border-left: solid 1px #434359;
+    border-right: solid 1px #434359;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropdown-popover-options {
+    display: block;
+}
+
+/* @media (max-width: 1605px) {
+    .options-tabs {
+        display: none !important;
+    }
+
+    .options-popover {
+        display: block;
+    }
+
+    .popover-options {
+        display: block;
+    }
+} */
+
+.options-tab {
+    padding: 1.2rem;
+    border: solid 1px #434359;
+    cursor: pointer;
+}
+
+.options-tab:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.options-tab:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.options-tab.active {
+    background: linear-gradient(to right, #451EC1, #6030F8);
+    color: #ffffff
+}
+
+.options-header {
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-panel-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    flex-basis: auto;
+    box-sizing: border-box;
+    position: relative;
+    max-height: 34rem;
+    min-height: 0px;
+    min-width: 0px;
+    padding: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: auto;
+}

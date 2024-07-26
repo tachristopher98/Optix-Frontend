@@ -1,0 +1,242 @@
+.cppanel-container {
+    position: relative;
+    border-radius: 0.4rem;
+    background: #292B3B;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    width: 100%;
+}
+
+.cppanel-logo-txt {
+    padding-bottom: 1rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.cppanel-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cppanel-logo-close {
+    display: flex;
+    align-items: center;
+}
+
+.cppanel-logo-close-icon {
+    margin-bottom: 1rem;
+    display: inline-flex;
+    margin-left: 1rem;
+    background: #1e1e2d;
+    border: solid 1px #434359;
+    border-radius: 3px;
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.crypto-logo {
+    background-color: #102E2E;
+    border: solid 1px #3FC11E;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.crypto-logo-short {
+    background-color: #2E1010;
+    border: solid 1px #EB2C2C;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.cppanel-logo-close-icon-1 {
+    font-size: 2.8rem;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.long-text {
+    font-weight: 600;
+    color: #3FC11E;
+}
+
+.short-text {
+    font-weight: 600;
+    color: #EB2C2C;    
+}
+
+.crypto-logo-icon {
+    background: #1E1E2D;
+    border: solid 1px #434359;
+    border-radius: 6px;
+    font-size: 3.8rem;
+    padding: 6px;
+}
+
+.cppanel-logo-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.cppanel-divider {
+    width: 100%;
+    margin: 1rem auto;
+    border-top: solid 1px #434359;
+}
+
+.cppanel-text-gray {
+    color: white;
+    opacity: 40%;
+}
+
+.cppanel-text-gray-1 {
+    color: white;
+    opacity: 40%;
+    margin-bottom: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.pl-1rem {
+    padding-left: 1rem;
+}
+
+.cppanel-input {
+    width: 40%;
+}
+
+.cppanel-input input {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #1E1E2D;
+    border: solid 1px #434359;
+    border-radius: 6px;
+    font-size: 1.4rem;
+}
+
+.cppanel-logo-icon-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.cppanel-text-green {
+    color: #3FC11E;
+}
+
+.cppanel-logo-btn {
+    width: 100%;
+    text-align: center;
+    padding: 1.2rem;
+    border: solid 1px #434359;
+    border-radius: 6px;
+    font-weight: 600;
+    background: linear-gradient(to right, #451EC1, #6030F8);
+    cursor: pointer;
+}
+
+.cppanel-logo-icon-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cppanel-tabs {
+    display: inline-flex;
+    background: #1E1E2D;
+}
+
+.cppanel-tab {
+    padding: 1.2rem;
+    border: solid 1px #434359;
+    cursor: pointer;
+}
+
+.cppanel-tab:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.cppanel-tab:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.cppanel-tab.active {
+    background: linear-gradient(to right, #451EC1, #6030F8);
+    color: #ffffff
+}
+
+.book-table {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.book-table div {
+    width: 33%;
+}
+
+.pt-2rem {
+    padding-top: 2rem;
+}
+
+.book-table.row {
+    padding-top: 0.5rem;
+}
+
+.book-table.row div:last-child {
+    text-align: center;
+}
+
+.book-table-divider {
+    height: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.book-table-divider>div:first-child {
+    width: 100%;
+    margin: auto 0;
+    border-top: solid 0.1px #434359;
+    /* z-index: -2; */
+}
+
+.book-table-divider-price {
+    position: absolute;
+    background: #1E1E2D;
+    border: solid 1px #434359;
+    border-radius: 3px;
+    width: 9rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    left: calc(50% - 4.5rem);
+}
+
+.cppanel-blank {
+    min-height: 35rem;
+    display: flex;
+    position: relative;
+}
+
+.cppanel-blank-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cppanel-blank-icon {
+    align-items: center;
+    margin: auto;
+    font-size: 6rem;
+    display: flex;
+    border: solid 0.1px;
+    border-radius: 10px;
+    color: gray;
+}

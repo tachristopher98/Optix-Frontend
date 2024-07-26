@@ -1,0 +1,72 @@
+.GmCreatePool {
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+}
+
+.GmCreatePool-asset-options-tabs {
+  margin: 1.5rem 0;
+}
+
+.GmCreatePool-info-section {
+  margin-bottom: 1.1rem;
+}
+
+.GmCreatePool-market-dropdown {
+  margin-top: 1.5rem;
+  margin-left: -0.5rem;
+
+  .Dropdown-current {
+    font-size: 1.5rem;
+  }
+
+  .menu-items {
+    top: 3.3rem;
+  }
+}
+
+.GmCreatePool-form-layout {
+  display: flex;
+  flex-direction: column;
+
+  &.reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.GmCreatePool-warning {
+  margin-bottom: 1.05rem !important;
+}
+
+.warning-tooltip {
+  direction: ltr;
+
+  .Tooltip-handle {
+    color: rgb(243, 181, 12);
+    text-decoration-color: rgb(243, 181, 12);
+  }
+
+  .Tooltip-popup {
+    color: white;
+  }
+}
+
+.gm-toast {
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .GmCreatePool-content {
+    flex-wrap: wrap;
+  }
+
+  .GmCreatePool-content .GlpSwap-stats-card {
+    margin: 0;
+    margin-bottom: 3.1rem;
+    max-width: 100%;
+  }
+
+  .GmCreatePool-content .GlpSwap-box {
+    margin: 0;
+    max-width: 100%;
+  }
+}
